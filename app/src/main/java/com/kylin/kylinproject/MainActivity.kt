@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.ComponentActivity
+import androidx.viewpager2.widget.ViewPager2
 
 class MainActivity : ComponentActivity() {
 
@@ -13,8 +14,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.test_main)
+        val viewpager : ViewPager2 = findViewById(R.id.vp)
 
-        tvTest = findViewById(R.id.tv_test)
     }
 
 

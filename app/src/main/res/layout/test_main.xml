@@ -4,16 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_test"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_margin="56dp"
-        android:gravity="center"
-        android:textSize="22sp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        android:text="一键三连"
+        android:layout_height="150dp"
+        android:layout_margin="48dp"
         />
 
 </LinearLayout>

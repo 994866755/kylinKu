@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shape_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9932CC"
+        app:strokeColor="@android:color/holo_red_dark"
+        app:strokeWidth="4dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
